@@ -1,8 +1,7 @@
  ```bash
 git clone <url>
 cd <repo>
-git branch -c "feature-branch"
-git checkout feature-branch
+git checkout -b "feature-branch"
 echo " ">a.txt
 echo " ">b.txt
 git add .
